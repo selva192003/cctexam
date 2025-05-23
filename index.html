@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stationery & Journals Store</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefdf9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background-color: #4b0082;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #ffe0b2;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #4b0082;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #36005a;
+    }
+
+    /* Products Section */
+    .products {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .products h3 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .product-card {
+      background-color: white;
+      padding: 1.5rem;
+      border: 2px solid #eee;
+      border-radius: 8px;
+      width: 250px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card h4 {
+      color: #4b0082;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Contact Section */
+    .contact {
+      background-color: #f0f0f0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact h3 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #4b0082;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Stationery & Journals</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Your Creative Corner</h2>
+    <p>Discover quality notebooks, planners, pens, and more.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </section>
+
+  <section id="products" class="products">
+    <h3>Our Products</h3>
+    <div class="product-grid">
+      <div class="product-card">
+        <h4>Classic Notebook</h4>
+        <p>Ideal for daily journaling, notes, and doodling.</p>
+      </div>
+      <div class="product-card">
+        <h4>Weekly Planner</h4>
+        <p>Stay organized with our minimal and elegant planner.</p>
+      </div>
+      <div class="product-card">
+        <h4>Signature Pen Set</h4>
+        <p>Fine writing tools for smooth and stylish writing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact Us</h3>
+    <p>Email: stationery@example.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: 123 Creative Lane, Chennai, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Stationery & Journals. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
